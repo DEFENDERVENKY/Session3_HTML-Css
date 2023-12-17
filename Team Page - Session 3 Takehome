@@ -1,0 +1,115 @@
+Team Page -Valid cards for individual
+https://docs.google.com/document/d/1RYbjtbtio4AsOe8z2iK9-mYUCsxUMge4nr9mvAEjfgM/edit --Question link
+
+Introduction to Wireframes-  https://uxdesign.cc/why-low-fidelity-wireframe-curious-in-product-design-c7bea87bc23d
+Descendant Selector-      https://www.sitepoint.com/descendant-selector-css-selector/
+Selector Grouping-       https://www.sitepoint.com/selector-grouping/
+CSS Opacity Prop-         https://www.w3schools.com/cssref/css3_pr_opacity.php
+
+AVATAR URLS:
+https://api.dicebear.com/7.x/avataaars/svg?seed=annakendrick
+https://api.dicebear.com/7.x/avataaars/svg?seed=harryfawn
+https://api.dicebear.com/7.x/avataaars/svg?seed=sofiasulta
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meet The Team</title>
+    <style>
+    body {
+      background-color:snow
+    }
+    .main-heading{
+      color:indigo;
+    }
+    .main-subtitle{
+      color:gray;
+    }
+    .team-members{
+      width:"256px"
+       }
+       .team-member p {
+        opacity: 0.8;
+      }
+      #anna {
+        background-color: darkcyan;
+        color: beige;
+      }
+
+      #anna h2,
+      #anna h3 {
+        color: honeydew;
+      }
+      
+      #harry {
+        background-color: cornsilk;
+      }
+
+      #harry h2,
+      #harry h3 {
+        color: darkslategray;
+      }
+      #sofia {
+        background-color: dodgerblue;
+        color: lightcyan;
+      }
+
+      #sofia h2,
+      #sofia h3 {
+        color: navy;
+
+
+
+    </style>
+
+  </head>
+  <h1 class="main-heading">Meet The Team</h1>
+  <p class="main-subtitle">The people who make this software awesome</p>
+</header>
+<section class="team-members" id="anna">
+  <img
+  src= "https://api.dicebear.com/7.x/avataaars/svg?seed=annakendrick"; 
+
+  alt="Anna kendrick"
+  width="100"
+  height="100"
+  />
+  <h2>Anna kendrick</h2>
+  <h3>FRond-end ninja</h3>
+  <p> Bibliophile, loves to dive into fictional worlds, ships JS code like
+      brownies
+  </p>
+</section>
+
+  <section class="team-member" id="hari">
+          <img
+          src= "https://api.dicebear.com/7.x/avataaars/svg?seed=harryfawn"; 
+        
+          alt="Hari Fawn"
+          width="100"
+          height="100"
+          />
+          <h2>Harry Fawn</h2>
+          <h3>Illustrator</h3>
+          <p>
+            Creates new illustrations each week, will kill for coffee, and loves
+            beaches.
+          </p>
+  </section>
+
+   <section class="team-member" id="sofia" >
+        <img
+        src= "https://api.dicebear.com/7.x/avataaars/svg?seed=sofiasulta";
+        alt="Sofia Sultan";
+        width="100";
+        height="100";
+      />
+      <h2>Sofia Sultan</h2>
+      <h3>Backend Engineer</h3>
+      <p>
+        Donuts over waffles. Martinis over whiskeys. Typescript over anything.
+      </p>
+    </section>  
+  
+  </body>
+</html>
